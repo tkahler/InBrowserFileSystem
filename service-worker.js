@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/tkahler/InBrowserFileSystem/precache-manifest.acf4aa3af2e182fb649f3fa30f9e05fd.js"
+  "/InBrowserFileSystem/precache-manifest.dbd8b7946727ab6ebfe21bf80e24687c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/tkahler/InBrowserFileSystem/index.html", {
+workbox.routing.registerNavigationRoute("/InBrowserFileSystem/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
