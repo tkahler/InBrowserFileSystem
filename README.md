@@ -9,6 +9,7 @@ An in browser file system built completely in JavaScript and React.js
 - Rename and Delete files and folders
 - Prevents duplicate items
 - Items are saved in local storage so folders are saved even when tab/browser is closed
+- Folders are always listed before files regardless of the order they were created.
 
 ### Implementation
 - Every item (folder or file) is given a unique id.
